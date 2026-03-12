@@ -4,60 +4,48 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Primary SEO Meta Tags -->
+  <!-- ── Primary SEO (defaults; overwritten at runtime from resume.json) ── -->
   <title>Yeshu Kochher — Full Stack Developer | TypeScript · Node.js · React · AWS</title>
-  <meta name="title" content="Yeshu Kochher — Full Stack Developer | TypeScript · Node.js · React · AWS" />
+  <meta name="title"       content="Yeshu Kochher — Full Stack Developer | TypeScript · Node.js · React · AWS" />
   <meta name="description" content="Expert-vetted Full Stack Developer specialising in TypeScript, Node.js, React, AWS and cloud-native architectures. Available for freelance and contract work globally." />
-  <meta name="keywords" content="Yeshu Kochher, Full Stack Developer, TypeScript, Node.js, React, AWS, GraphQL, PostgreSQL, MongoDB, Azure, Dubai, India, Toptal, SaaS, Microservices" />
-  <meta name="author" content="Yeshu Kochher" />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://yeshu.in/" />
+  <meta name="keywords"    content="Yeshu Kochher, Full Stack Developer, TypeScript, Node.js, React, AWS, GraphQL" />
+  <meta name="author"      content="Yeshu Kochher" />
+  <meta name="robots"      content="index, follow" />
+  <link rel="canonical"    href="https://yeshu.in/" />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://yeshu.in/" />
-  <meta property="og:title" content="Yeshu Kochher — Full Stack Developer" />
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://yeshu.in/" />
+  <meta property="og:title"       content="Yeshu Kochher — Full Stack Developer" />
   <meta property="og:description" content="Expert-vetted Full Stack Developer specialising in TypeScript, Node.js, React, AWS and cloud-native architectures." />
-  <meta property="og:image" content="https://yeshu.in/assets/images/og-cover.png" />
-  <meta property="og:site_name" content="yeshu.in" />
+  <meta property="og:image"       content="https://yeshu.in/assets/images/og-cover.png" />
+  <meta property="og:site_name"   content="yeshu.in" />
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:url" content="https://yeshu.in/" />
-  <meta name="twitter:title" content="Yeshu Kochher — Full Stack Developer" />
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:url"         content="https://yeshu.in/" />
+  <meta name="twitter:title"       content="Yeshu Kochher — Full Stack Developer" />
   <meta name="twitter:description" content="Expert-vetted Full Stack Developer specialising in TypeScript, Node.js, React, AWS and cloud-native architectures." />
-  <meta name="twitter:image" content="https://yeshu.in/assets/images/og-cover.png" />
+  <meta name="twitter:image"       content="https://yeshu.in/assets/images/og-cover.png" />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png" />
+  <link rel="icon"             type="image/svg+xml" href="/assets/images/favicon.svg" />
+  <link rel="icon"             type="image/png" sizes="32x32" href="/assets/images/favicon-32.png" />
   <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
 
-  <!-- Preconnect to fonts -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
-  <!-- Structured Data (JSON-LD) -->
-  <script type="application/ld+json">
+  <!-- Structured Data — updated at runtime from resume.json -->
+  <script type="application/ld+json" id="structured-data">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Yeshu Kochher",
     "url": "https://yeshu.in",
-    "sameAs": [
-      "https://github.com/2yk",
-      "https://www.toptal.com/developers/resume/yeshu-kochher",
-      "https://www.linkedin.com/in/yeshukochher"
-    ],
-    "jobTitle": "Full Stack Developer",
-    "description": "Expert-vetted Full Stack Developer specialising in TypeScript, Node.js, React, AWS and cloud-native architectures.",
-    "knowsAbout": ["TypeScript", "Node.js", "React", "AWS", "GraphQL", "PostgreSQL", "MongoDB", "Azure", "Microservices"],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Dubai",
-      "addressCountry": "AE"
-    }
+    "jobTitle": "Full Stack Developer"
   }
   </script>
 
@@ -65,9 +53,9 @@
 </head>
 <body>
 
-  <!-- ═══════════════════════════════════════════════════════
-       NAVIGATION
-  ═══════════════════════════════════════════════════════ -->
+  <!-- ══════════════════════════════════════════════════════
+       NAVIGATION — rendered by JS
+  ══════════════════════════════════════════════════════ -->
   <nav class="navbar" id="navbar" aria-label="Main navigation">
     <div class="container nav-inner">
       <a href="#hero" class="brand" aria-label="Yeshu Kochher — Home">
@@ -79,79 +67,47 @@
       </button>
 
       <ul class="nav-links" id="navLinks" role="list">
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#about"      class="nav-link">About</a></li>
+        <li><a href="#skills"     class="nav-link">Skills</a></li>
         <li><a href="#experience" class="nav-link">Experience</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-        <li>
-          <a href="https://www.toptal.com/developers/resume/yeshu-kochher"
-             target="_blank" rel="noopener noreferrer"
-             class="btn btn-outline btn-sm">
-            Hire Me
-          </a>
-        </li>
+        <li><a href="#projects"   class="nav-link">Projects</a></li>
+        <li><a href="#contact"    class="nav-link">Contact</a></li>
+        <li id="nav-hire-btn"></li>
       </ul>
     </div>
   </nav>
 
-  <!-- ═══════════════════════════════════════════════════════
+  <!-- ══════════════════════════════════════════════════════
        HERO
-  ═══════════════════════════════════════════════════════ -->
+  ══════════════════════════════════════════════════════ -->
   <section id="hero" class="hero">
     <div class="hero-grid-bg" aria-hidden="true"></div>
     <div class="container hero-inner">
       <div class="hero-text" data-aos="fade-up">
-        <p class="hero-greeting">
-          <span class="tag-open">&lt;</span>Hello World<span class="tag-close">/&gt;</span>
-        </p>
-        <h1 class="hero-name">Yeshu Kochher</h1>
+        <p class="hero-greeting" id="hero-greeting"></p>
+        <h1 class="hero-name" id="hero-name"></h1>
         <h2 class="hero-title">
           <span class="typed-wrapper">
             <span class="typed" id="typed"></span><span class="cursor">|</span>
           </span>
         </h2>
-        <p class="hero-summary">
-          Expert-vetted <strong>Full Stack Developer</strong> building scalable, cloud-native web
-          applications for startups and global enterprises. Based in&nbsp;Dubai&nbsp;🇦🇪.
-        </p>
+        <p class="hero-summary" id="hero-summary"></p>
         <div class="hero-cta">
           <a href="#projects" class="btn btn-primary">View My Work</a>
-          <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+          <a href="#contact"  class="btn btn-ghost">Get In Touch</a>
         </div>
-        <div class="hero-badges" aria-label="Verified on Toptal">
-          <a href="https://www.toptal.com/developers/resume/yeshu-kochher"
-             target="_blank" rel="noopener noreferrer"
-             class="badge-toptal">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            Expert-Vetted on Toptal
-          </a>
-        </div>
+        <div class="hero-badges" id="hero-badges"></div>
       </div>
+
       <div class="hero-visual" data-aos="fade-left" data-aos-delay="200" aria-hidden="true">
         <div class="code-window">
           <div class="code-window-header">
             <span class="dot dot-red"></span>
             <span class="dot dot-yellow"></span>
             <span class="dot dot-green"></span>
-            <span class="code-window-title">developer.ts</span>
+            <span class="code-window-title" id="code-filename"></span>
           </div>
-          <pre class="code-window-body"><code><span class="kw">const</span> <span class="var">yeshu</span> <span class="op">=</span> <span class="kw">new</span> <span class="cls">Developer</span><span class="punc">(</span><span class="punc">{</span>
-  name<span class="op">:</span>     <span class="str">"Yeshu Kochher"</span><span class="punc">,</span>
-  location<span class="op">:</span> <span class="str">"Dubai, UAE 🇦🇪"</span><span class="punc">,</span>
-  role<span class="op">:</span>     <span class="str">"Full Stack Developer"</span><span class="punc">,</span>
-  stack<span class="op">:</span>    <span class="punc">[</span>
-    <span class="str">"TypeScript"</span><span class="punc">,</span>  <span class="str">"Node.js"</span><span class="punc">,</span>
-    <span class="str">"React"</span><span class="punc">,</span>       <span class="str">"GraphQL"</span><span class="punc">,</span>
-    <span class="str">"PostgreSQL"</span><span class="punc">,</span>  <span class="str">"AWS"</span><span class="punc">,</span>
-  <span class="punc">]</span><span class="punc">,</span>
-  available<span class="op">:</span> <span class="bool">true</span><span class="punc">,</span>
-<span class="punc">}</span><span class="punc">)</span><span class="punc">;</span>
-
-<span class="var">yeshu</span><span class="op">.</span><span class="fn">build</span><span class="punc">(</span><span class="str">"something amazing"</span><span class="punc">)</span><span class="punc">;</span>
-</code></pre>
+          <pre class="code-window-body"><code id="code-body"></code></pre>
         </div>
       </div>
     </div>
@@ -162,349 +118,62 @@
     </a>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════════
+  <!-- ══════════════════════════════════════════════════════
        ABOUT
-  ═══════════════════════════════════════════════════════ -->
+  ══════════════════════════════════════════════════════ -->
   <section id="about" class="section section-alt">
     <div class="container">
       <h2 class="section-heading" data-aos="fade-up">
         <span class="section-tag">01.</span> About Me
       </h2>
-
       <div class="about-grid">
         <div class="about-text" data-aos="fade-right">
-          <p>
-            I'm a <strong>Full Stack Developer</strong> with deep expertise in building
-            high-performance, cloud-native web applications. With experience spanning startups to
-            global enterprises, I specialise in translating complex business requirements into
-            elegant, maintainable software.
-          </p>
-          <p>
-            I've delivered production-grade solutions for organisations including
-            <strong>Tropicana</strong>, <strong>Washington University</strong>, and the
-            <strong>Qatar Government</strong>. I'm an expert-vetted developer on
-            <a href="https://www.toptal.com/developers/resume/yeshu-kochher" target="_blank" rel="noopener noreferrer">Toptal</a>
-            — a platform that accepts fewer than 3% of applicants.
-          </p>
-          <p>
-            When I'm not shipping code, I'm exploring distributed systems architecture,
-            contributing to open-source, and mentoring developers in the community.
-          </p>
-          <ul class="about-facts" role="list">
-            <li>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              5+ years building production-grade systems
-            </li>
-            <li>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              Expert-Vetted — Top 3% on Toptal
-            </li>
-            <li>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              Clients across 10+ countries
-            </li>
-            <li>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              Available for remote &amp; on-site engagements
-            </li>
-          </ul>
-          <a href="https://www.toptal.com/developers/resume/yeshu-kochher" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          <div id="about-paragraphs"></div>
+          <ul class="about-facts" id="about-facts" role="list"></ul>
+          <a id="about-resume-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
             View Full Resume
           </a>
         </div>
-
-        <div class="about-stats" data-aos="fade-left" data-aos-delay="100">
-          <div class="stat-card">
-            <span class="stat-value">5+</span>
-            <span class="stat-label">Years Experience</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-value">30+</span>
-            <span class="stat-label">Projects Delivered</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-value">10+</span>
-            <span class="stat-label">Countries Served</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-value">Top 3%</span>
-            <span class="stat-label">Toptal Developer</span>
-          </div>
-        </div>
+        <div class="about-stats" id="about-stats" data-aos="fade-left" data-aos-delay="100"></div>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════════
+  <!-- ══════════════════════════════════════════════════════
        SKILLS
-  ═══════════════════════════════════════════════════════ -->
+  ══════════════════════════════════════════════════════ -->
   <section id="skills" class="section">
     <div class="container">
       <h2 class="section-heading" data-aos="fade-up">
         <span class="section-tag">02.</span> Tech Stack
       </h2>
-
-      <div class="skills-grid" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="skill-category">
-          <h3 class="skill-category-title">Languages</h3>
-          <div class="skill-chips">
-            <span class="chip">TypeScript</span>
-            <span class="chip">JavaScript</span>
-            <span class="chip">Python</span>
-            <span class="chip">SQL</span>
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <h3 class="skill-category-title">Frontend</h3>
-          <div class="skill-chips">
-            <span class="chip">React</span>
-            <span class="chip">Next.js</span>
-            <span class="chip">Redux</span>
-            <span class="chip">Tailwind CSS</span>
-            <span class="chip">HTML5 / CSS3</span>
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <h3 class="skill-category-title">Backend</h3>
-          <div class="skill-chips">
-            <span class="chip">Node.js</span>
-            <span class="chip">NestJS</span>
-            <span class="chip">Express</span>
-            <span class="chip">GraphQL</span>
-            <span class="chip">REST APIs</span>
-            <span class="chip">Microservices</span>
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <h3 class="skill-category-title">Databases</h3>
-          <div class="skill-chips">
-            <span class="chip">PostgreSQL</span>
-            <span class="chip">MongoDB</span>
-            <span class="chip">Redis</span>
-            <span class="chip">TypeORM</span>
-            <span class="chip">Prisma</span>
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <h3 class="skill-category-title">Cloud &amp; DevOps</h3>
-          <div class="skill-chips">
-            <span class="chip">AWS</span>
-            <span class="chip">Azure</span>
-            <span class="chip">Docker</span>
-            <span class="chip">Kubernetes</span>
-            <span class="chip">CI/CD</span>
-            <span class="chip">GitHub Actions</span>
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <h3 class="skill-category-title">Specialisations</h3>
-          <div class="skill-chips">
-            <span class="chip chip-accent">SaaS Architecture</span>
-            <span class="chip chip-accent">AI Integrations</span>
-            <span class="chip chip-accent">MVP Acceleration</span>
-            <span class="chip chip-accent">Enterprise Systems</span>
-          </div>
-        </div>
-
-      </div>
+      <div class="skills-grid" id="skills-grid" data-aos="fade-up" data-aos-delay="100"></div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════════
+  <!-- ══════════════════════════════════════════════════════
        EXPERIENCE
-  ═══════════════════════════════════════════════════════ -->
+  ══════════════════════════════════════════════════════ -->
   <section id="experience" class="section section-alt">
     <div class="container">
       <h2 class="section-heading" data-aos="fade-up">
         <span class="section-tag">03.</span> Experience
       </h2>
-
-      <div class="timeline">
-
-        <div class="timeline-item" data-aos="fade-up">
-          <div class="timeline-dot" aria-hidden="true"></div>
-          <div class="timeline-card">
-            <div class="timeline-header">
-              <div>
-                <h3 class="timeline-role">Senior Full Stack Developer</h3>
-                <p class="timeline-company">
-                  Toptal — Global Clients
-                  <a href="https://www.toptal.com/developers/resume/yeshu-kochher" target="_blank" rel="noopener noreferrer" class="external-link" aria-label="View Toptal profile">
-                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                  </a>
-                </p>
-              </div>
-              <span class="timeline-period">2020 — Present</span>
-            </div>
-            <ul class="timeline-bullets" role="list">
-              <li>Built and launched enterprise-grade AI platforms for global brands including Tropicana and Washington University.</li>
-              <li>Led backend architecture and admin dashboard development, handling millions of records.</li>
-              <li>Delivered critical business solutions for the Qatar Government — meeting strict SLA and compliance requirements.</li>
-              <li>Migrated monolithic applications to microservices, reducing infra costs by 40%.</li>
-            </ul>
-            <div class="timeline-tech">
-              <span class="chip chip-sm">TypeScript</span>
-              <span class="chip chip-sm">Node.js</span>
-              <span class="chip chip-sm">React</span>
-              <span class="chip chip-sm">AWS</span>
-              <span class="chip chip-sm">GraphQL</span>
-              <span class="chip chip-sm">PostgreSQL</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
-          <div class="timeline-dot" aria-hidden="true"></div>
-          <div class="timeline-card">
-            <div class="timeline-header">
-              <div>
-                <h3 class="timeline-role">Full Stack Developer</h3>
-                <p class="timeline-company">SaaS Startups — Remote</p>
-              </div>
-              <span class="timeline-period">2018 — 2020</span>
-            </div>
-            <ul class="timeline-bullets" role="list">
-              <li>Accelerated MVP delivery for 5+ early-stage SaaS products, reducing time-to-market by 50%.</li>
-              <li>Designed and implemented real-time notification systems using WebSockets and Redis pub/sub.</li>
-              <li>Established robust CI/CD pipelines with automated testing — achieving 95%+ code coverage.</li>
-            </ul>
-            <div class="timeline-tech">
-              <span class="chip chip-sm">NestJS</span>
-              <span class="chip chip-sm">MongoDB</span>
-              <span class="chip chip-sm">Docker</span>
-              <span class="chip chip-sm">Redis</span>
-              <span class="chip chip-sm">Azure</span>
-            </div>
-          </div>
-        </div>
-
-      </div>
+      <div class="timeline" id="timeline"></div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════════
+  <!-- ══════════════════════════════════════════════════════
        PROJECTS
-  ═══════════════════════════════════════════════════════ -->
+  ══════════════════════════════════════════════════════ -->
   <section id="projects" class="section">
     <div class="container">
       <h2 class="section-heading" data-aos="fade-up">
         <span class="section-tag">04.</span> Featured Projects
       </h2>
-
-      <div class="projects-grid">
-
-        <article class="project-card" data-aos="fade-up">
-          <div class="project-card-top">
-            <svg class="project-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M3 7a2 2 0 012-2h14a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V7z" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M8 12h8M8 8h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
-            <div class="project-links" aria-label="Project links">
-              <a href="https://github.com/2yk" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
-              </a>
-            </div>
-          </div>
-          <h3 class="project-title">Enterprise AI Platform</h3>
-          <p class="project-desc">
-            Full-stack AI-powered enterprise platform handling complex data pipelines and
-            real-time analytics dashboards for a Fortune 500 client.
-          </p>
-          <div class="project-tech">
-            <span class="chip chip-sm">TypeScript</span>
-            <span class="chip chip-sm">NestJS</span>
-            <span class="chip chip-sm">React</span>
-            <span class="chip chip-sm">PostgreSQL</span>
-            <span class="chip chip-sm">AWS</span>
-          </div>
-        </article>
-
-        <article class="project-card" data-aos="fade-up" data-aos-delay="100">
-          <div class="project-card-top">
-            <svg class="project-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="1.5"/>
-            </svg>
-            <div class="project-links" aria-label="Project links">
-              <a href="https://github.com/2yk" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
-              </a>
-            </div>
-          </div>
-          <h3 class="project-title">NestJS Starter Template</h3>
-          <p class="project-desc">
-            Production-ready NestJS boilerplate with GraphQL, TypeORM, JWT auth,
-            role-based access control, and Docker-first deployment.
-          </p>
-          <div class="project-tech">
-            <span class="chip chip-sm">NestJS</span>
-            <span class="chip chip-sm">GraphQL</span>
-            <span class="chip chip-sm">TypeORM</span>
-            <span class="chip chip-sm">PostgreSQL</span>
-            <span class="chip chip-sm">Docker</span>
-          </div>
-        </article>
-
-        <article class="project-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="project-card-top">
-            <svg class="project-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M12 2a14.5 14.5 0 010 20M2 12h20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
-            <div class="project-links" aria-label="Project links">
-              <a href="https://github.com/2yk" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
-              </a>
-            </div>
-          </div>
-          <h3 class="project-title">Government SaaS Portal</h3>
-          <p class="project-desc">
-            Scalable public-sector web portal for the Qatar Government — built with strict
-            compliance, accessibility, and performance requirements.
-          </p>
-          <div class="project-tech">
-            <span class="chip chip-sm">Next.js</span>
-            <span class="chip chip-sm">Node.js</span>
-            <span class="chip chip-sm">Azure</span>
-            <span class="chip chip-sm">MongoDB</span>
-            <span class="chip chip-sm">Redis</span>
-          </div>
-        </article>
-
-        <article class="project-card" data-aos="fade-up" data-aos-delay="300">
-          <div class="project-card-top">
-            <svg class="project-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            <div class="project-links" aria-label="Project links">
-              <a href="https://github.com/2yk" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
-              </a>
-            </div>
-          </div>
-          <h3 class="project-title">Microservices Migration Framework</h3>
-          <p class="project-desc">
-            Led end-to-end migration of a legacy monolith to event-driven microservices,
-            cutting infrastructure costs by 40% and tripling deployment frequency.
-          </p>
-          <div class="project-tech">
-            <span class="chip chip-sm">Node.js</span>
-            <span class="chip chip-sm">Kubernetes</span>
-            <span class="chip chip-sm">AWS</span>
-            <span class="chip chip-sm">RabbitMQ</span>
-            <span class="chip chip-sm">CI/CD</span>
-          </div>
-        </article>
-
-      </div>
-
+      <div class="projects-grid" id="projects-grid"></div>
       <div class="projects-footer" data-aos="fade-up">
-        <a href="https://github.com/2yk" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+        <a id="github-all-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
           View All on GitHub
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
         </a>
@@ -512,36 +181,18 @@
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════════
+  <!-- ══════════════════════════════════════════════════════
        CONTACT
-  ═══════════════════════════════════════════════════════ -->
+  ══════════════════════════════════════════════════════ -->
   <section id="contact" class="section section-alt">
     <div class="container">
       <h2 class="section-heading" data-aos="fade-up">
         <span class="section-tag">05.</span> Get In Touch
       </h2>
-
       <div class="contact-grid">
         <div class="contact-text" data-aos="fade-right">
-          <p class="contact-intro">
-            I'm currently open to new opportunities — whether it's a full-time role, a
-            freelance project, or a long-term contract. If you have something exciting in mind,
-            let's talk.
-          </p>
-          <div class="contact-links">
-            <a href="mailto:hello@yeshu.in" class="contact-link-item">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              hello@yeshu.in
-            </a>
-            <a href="https://github.com/2yk" target="_blank" rel="noopener noreferrer" class="contact-link-item">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
-              github.com/2yk
-            </a>
-            <a href="https://www.toptal.com/developers/resume/yeshu-kochher" target="_blank" rel="noopener noreferrer" class="contact-link-item">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              Toptal Profile
-            </a>
-          </div>
+          <p class="contact-intro" id="contact-intro"></p>
+          <div class="contact-links" id="contact-links"></div>
         </div>
 
         <form id="contactForm" class="contact-form" data-aos="fade-left" novalidate>
@@ -569,22 +220,15 @@
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════════
+  <!-- ══════════════════════════════════════════════════════
        FOOTER
-  ═══════════════════════════════════════════════════════ -->
+  ══════════════════════════════════════════════════════ -->
   <footer class="footer">
     <div class="container footer-inner">
       <p class="footer-copy">
         Designed &amp; Built by <strong>Yeshu Kochher</strong> &copy; <span id="year"></span>
       </p>
-      <div class="footer-socials" aria-label="Social links">
-        <a href="https://github.com/2yk" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
-        </a>
-        <a href="https://www.toptal.com/developers/resume/yeshu-kochher" target="_blank" rel="noopener noreferrer" aria-label="Toptal profile">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a>
-      </div>
+      <div class="footer-socials" id="footer-socials" aria-label="Social links"></div>
     </div>
   </footer>
 
