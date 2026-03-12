@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "siteUrl": "https://yeshu.in",
+    "title": "Yeshu Kochher — Full Stack Developer | TypeScript · Node.js · React · AWS",
+    "description": "Expert-vetted Full Stack Developer specialising in TypeScript, Node.js, React, AWS and cloud-native architectures. Available for freelance and contract work globally.",
+    "keywords": [
+      "Yeshu Kochher",
+      "Full Stack Developer",
+      "TypeScript",
+      "Node.js",
+      "React",
+      "AWS",
+      "GraphQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Azure",
+      "Dubai",
+      "India",
+      "Toptal",
+      "SaaS",
+      "Microservices"
+    ],
+    "author": "Yeshu Kochher",
+    "email": "hello@yeshu.in",
+    "ogImage": "https://yeshu.in/assets/images/og-cover.png"
+  },
+  "hero": {
+    "greeting": "Hello World",
+    "name": "Yeshu Kochher",
+    "typedPhrases": [
+      "Full Stack Developer",
+      "TypeScript Engineer",
+      "Cloud Architect",
+      "API Designer",
+      "React / Node.js Expert"
+    ],
+    "summary": "Expert-vetted <strong>Full Stack Developer</strong> building scalable, cloud-native web applications for startups and global enterprises. Based in&nbsp;Dubai&nbsp;🇦🇪.",
+    "codeSnippet": {
+      "filename": "developer.ts",
+      "code": "const yeshu = new Developer({\n  name:     \"Yeshu Kochher\",\n  location: \"Dubai, UAE 🇦🇪\",\n  role:     \"Full Stack Developer\",\n  stack:    [\n    \"TypeScript\",  \"Node.js\",\n    \"React\",       \"GraphQL\",\n    \"PostgreSQL\",  \"AWS\",\n  ],\n  available: true,\n});\n\nyeshu.build(\"something amazing\");"
+    }
+  },
+  "about": {
+    "paragraphs": [
+      "I'm a <strong>Full Stack Developer</strong> with deep expertise in building high-performance, cloud-native web applications. With experience spanning startups to global enterprises, I specialise in translating complex business requirements into elegant, maintainable software.",
+      "I've delivered production-grade solutions for organisations including <strong>Tropicana</strong>, <strong>Washington University</strong>, and the <strong>Qatar Government</strong>. I'm an expert-vetted developer on <a href=\"https://www.toptal.com/developers/resume/yeshu-kochher\" target=\"_blank\" rel=\"noopener noreferrer\">Toptal</a> — a platform that accepts fewer than 3% of applicants.",
+      "When I'm not shipping code, I'm exploring distributed systems architecture, contributing to open-source, and mentoring developers in the community."
+    ],
+    "facts": [
+      "5+ years building production-grade systems",
+      "Expert-Vetted — Top 3% on Toptal",
+      "Clients across 10+ countries",
+      "Available for remote & on-site engagements"
+    ],
+    "stats": [
+      {
+        "value": "5+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "30+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "10+",
+        "label": "Countries Served"
+      },
+      {
+        "value": "Top 3%",
+        "label": "Toptal Developer"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        "React",
+        "Next.js",
+        "Redux",
+        "Tailwind CSS",
+        "HTML5 / CSS3"
+      ]
+    },
+    {
+      "category": "Backend",
+      "items": [
+        "Node.js",
+        "NestJS",
+        "Express",
+        "GraphQL",
+        "REST APIs",
+        "Microservices"
+      ]
+    },
+    {
+      "category": "Databases",
+      "items": [
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "TypeORM",
+        "Prisma"
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": [
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "category": "Specialisations",
+      "accent": true,
+      "items": [
+        "SaaS Architecture",
+        "AI Integrations",
+        "MVP Acceleration",
+        "Enterprise Systems"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Senior Full Stack Developer",
+      "company": "Toptal — Global Clients",
+      "companyUrl": "https://www.toptal.com/developers/resume/yeshu-kochher",
+      "period": "2020 — Present",
+      "bullets": [
+        "Built and launched enterprise-grade AI platforms for global brands including Tropicana and Washington University.",
+        "Led backend architecture and admin dashboard development, handling millions of records.",
+        "Delivered critical business solutions for the Qatar Government — meeting strict SLA and compliance requirements.",
+        "Migrated monolithic applications to microservices, reducing infra costs by 40%."
+      ],
+      "tech": [
+        "TypeScript",
+        "Node.js",
+        "React",
+        "AWS",
+        "GraphQL",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "role": "Full Stack Developer",
+      "company": "SaaS Startups — Remote",
+      "companyUrl": null,
+      "period": "2018 — 2020",
+      "bullets": [
+        "Accelerated MVP delivery for 5+ early-stage SaaS products, reducing time-to-market by 50%.",
+        "Designed and implemented real-time notification systems using WebSockets and Redis pub/sub.",
+        "Established robust CI/CD pipelines with automated testing — achieving 95%+ code coverage."
+      ],
+      "tech": [
+        "NestJS",
+        "MongoDB",
+        "Docker",
+        "Redis",
+        "Azure"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Enterprise AI Platform",
+      "description": "Full-stack AI-powered enterprise platform handling complex data pipelines and real-time analytics dashboards for a Fortune 500 client.",
+      "tech": [
+        "TypeScript",
+        "NestJS",
+        "React",
+        "PostgreSQL",
+        "AWS"
+      ],
+      "githubUrl": "https://github.com/2yk",
+      "liveUrl": null,
+      "icon": "document"
+    },
+    {
+      "title": "NestJS Starter Template",
+      "description": "Production-ready NestJS boilerplate with GraphQL, TypeORM, JWT auth, role-based access control, and Docker-first deployment.",
+      "tech": [
+        "NestJS",
+        "GraphQL",
+        "TypeORM",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "githubUrl": "https://github.com/2yk",
+      "liveUrl": null,
+      "icon": "shield"
+    },
+    {
+      "title": "Government SaaS Portal",
+      "description": "Scalable public-sector web portal for the Qatar Government — built with strict compliance, accessibility, and performance requirements.",
+      "tech": [
+        "Next.js",
+        "Node.js",
+        "Azure",
+        "MongoDB",
+        "Redis"
+      ],
+      "githubUrl": "https://github.com/2yk",
+      "liveUrl": null,
+      "icon": "globe"
+    },
+    {
+      "title": "Microservices Migration Framework",
+      "description": "Led end-to-end migration of a legacy monolith to event-driven microservices, cutting infrastructure costs by 40% and tripling deployment frequency.",
+      "tech": [
+        "Node.js",
+        "Kubernetes",
+        "AWS",
+        "RabbitMQ",
+        "CI/CD"
+      ],
+      "githubUrl": "https://github.com/2yk",
+      "liveUrl": null,
+      "icon": "grid"
+    }
+  ],
+  "contact": {
+    "intro": "I'm currently open to new opportunities — whether it's a full-time role, a freelance project, or a long-term contract. If you have something exciting in mind, let's talk.",
+    "links": [
+      {
+        "label": "hello@yeshu.in",
+        "href": "mailto:hello@yeshu.in",
+        "icon": "email",
+        "external": false
+      },
+      {
+        "label": "github.com/2yk",
+        "href": "https://github.com/2yk",
+        "icon": "github",
+        "external": true
+      },
+      {
+        "label": "Toptal Profile",
+        "href": "https://www.toptal.com/developers/resume/yeshu-kochher",
+        "icon": "verified",
+        "external": true
+      }
+    ]
+  },
+  "social": {
+    "github": "https://github.com/2yk",
+    "toptal": "https://www.toptal.com/developers/resume/yeshu-kochher",
+    "linkedin": "https://www.linkedin.com/in/yeshukochher"
+  }
+}
